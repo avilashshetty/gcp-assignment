@@ -147,12 +147,12 @@ Running shell commands from Python
 Basic DevOps scripting
 
 How I Ran It
-python scripts/app.py --project <PROJECT_ID> --region asia-south1 --bucket my-bucket-123
+python scripts/automation.py --project gcp-assign --dataset analytics_core --location us-central1
 
 
 How to Deploy Everything
-Step 1: Go to environment folder
-cd envs/dev
+Step 1: Go to gcp-assign folder
+cd gcp-assign
 
 Step 2: Initialize Terraform
 terraform init
@@ -173,7 +173,6 @@ How different GCP services connect and depend on each other
 How to build reusable Terraform modules
 How to organize cloud infrastructure
 Networking basics (important for GKE and Composer)
-Using IAM and service accounts
 Automating cloud tasks with Python
 Following Infrastructure‑as‑Code best practices
 Debugging real cloud problems
