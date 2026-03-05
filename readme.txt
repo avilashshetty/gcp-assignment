@@ -131,12 +131,11 @@ terraform apply -target="module.composer"
 
 6. Python Automation Script
 What I Learned
-The app.py script creates a GCS bucket using Python.
+The automation.py script creates a BigQuery dataset using Python.
 It runs PowerShell commands like:
-
 gcloud to select the project
 enabling APIs
-gsutil to create a bucket
+gsutil to create a BigQuery dataset
 
 This shows how Python can automate cloud tasks.
 Why It Is Needed
