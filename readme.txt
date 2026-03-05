@@ -26,14 +26,14 @@ gcp-infra-terraform/
 ├── envs/
 │   └── dev/
 │       ├── main.tf
-│       ├── providers.tf
+│       ├── outputs.tf
 │       ├── versions.tf
 │       ├── variables.tf
-│       ├── terraform.tfvars
-│       └── backend.tf
+│       └── terraform.tfvars
+│
 │
 └── scripts/
-     └── app.py
+     └── automation.py
 
 Each module is fully reusable and takes input variables.
 The envs/dev folder is the environment where all modules are combined to deploy the complete infrastructure.
